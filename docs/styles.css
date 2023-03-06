@@ -1,13 +1,22 @@
 body {
-
+background-color: tan;
 }
 
 .items {
-
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .link {
   text-decoration: none;
+  background-color: blueviolet;
+}
+
+.link-a {
+  color: #001e1d;
+  text-decoration: none;
+  text-align: center;
 }
 
 .thumbnail {
