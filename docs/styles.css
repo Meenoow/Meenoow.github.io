@@ -9,6 +9,7 @@ justify-content: center;
 .name {
   display: flex;
   justify-content: center;
+  color: azure;
 }
 
 .banner {
@@ -31,17 +32,22 @@ justify-content: center;
   flex-grow: 1;
 }
 
+.social-icons a {
+  color: #fffffe;
+  text-decoration: none;
+}
+
 .social-icons {
   display: flex;
   justify-content: space-around;
-
+  align-items: center;
 }
 
 .link {
-  text-decoration: none;
-  background-color: #f9bc60;
+  background-color: aqua;
   display: flex;
   align-items: center;
+  padding: 5px;
 }
 
 .link a {
@@ -49,7 +55,6 @@ justify-content: center;
   text-decoration: none;
   text-align: center;
   flex-grow: 1;
-
 }
 
 .thumbnail {
