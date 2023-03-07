@@ -37,7 +37,9 @@ font-family: 'Tilt Warp', cursive;
 
 .social-icons a {
   color: #fffffe;
-  text-decoration: none;g
+  text-decoration: none;
+  width: 28px;
+  height: 28px;
 }
 
 .social-icons {
@@ -64,6 +66,7 @@ font-family: 'Tilt Warp', cursive;
   flex-grow: 1;
   padding: 5px;
   border-radius: 50px;
+  font-size: 25px;
 }
 
 .thumbnail {
