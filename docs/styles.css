@@ -25,6 +25,7 @@ font-family: 'Tilt Warp', cursive;
   object-fit: cover;
   border-radius: 128px;
   border: solid white 5px;
+  box-shadow: rgb(241, 4, 193) 3px 8px 8px 3px;
 }
 
 .items {
@@ -68,6 +69,7 @@ font-family: 'Tilt Warp', cursive;
   border-radius: 50px;
   font-size: 25px;
 }
+
 
 .thumbnail {
   width: 48px;
