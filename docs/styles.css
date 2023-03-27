@@ -5,13 +5,16 @@ body {
   display: flex;
   justify-content: center;
   font-family: 'Tilt Warp', cursive;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .name {
   display: flex;
   justify-content: center;
   color: azure;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .banner {
@@ -37,7 +40,7 @@ body {
 }
 
 .social-icons a {
-  color: #fffffe;
+  color: greenyellow;
   text-decoration: none;
   width: 28px;
   height: 28px;
@@ -49,8 +52,8 @@ body {
   align-items: center;
 }
 
-.link {
-  background-image: url("/media/grayliqui.gif");
+.link{
+  background-image: url("/media/bbls.gif");
   display: flex;
   align-items: center;
   padding: 15px;
@@ -59,10 +62,13 @@ body {
   justify-content: space-around;
   border: solid black 5px;
   margin-bottom: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .link a {
-  color: #001e1d;
+  color: whitesmoke;
   text-decoration: none;
   text-align: center;
   flex-grow: 1;
@@ -70,7 +76,6 @@ body {
   border-radius: 50px;
   font-size: 25px;
 }
-
 
 .thumbnail {
   width: 48px;
