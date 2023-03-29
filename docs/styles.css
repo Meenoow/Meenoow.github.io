@@ -13,8 +13,16 @@ body {
 .name {
   display: flex;
   justify-content: center;
-  color: azure;
+  color: #1D8758;
   font-size: 40px;
+  color: #fff;
+  text-shadow:
+  0 0 20px #fff,
+  0 0 40px #1D8758,
+    0 0 80px #1D8758,
+    0 0 90px #1D8758,
+    0 0 100px #1D8758,
+    0 0 150px #1D8758;
 }
 
 .banner {
@@ -40,7 +48,7 @@ body {
 }
 
 .social-icons a {
-  color: greenyellow;
+  color: violet;
   text-decoration: none;
   width: 28px;
   height: 28px;
@@ -53,22 +61,54 @@ body {
 }
 
 .link{
-  background-image: url("/media/bbls.gif");
+  background-color: black;
   display: flex;
   align-items: center;
   padding: 15px;
   gap: 10px;
   border-radius: 50px;
   justify-content: space-around;
-  border: solid black 5px;
+  margin-bottom: 35px;
+  border: solid 5px;
+}
+.glow {
   margin-bottom: 15px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background: #C0FFE4;
+	box-shadow: 1px 1px 0 #1D8758, 0 0 20px 5px #C0FFE4, inset 2px 2px 0 #D3FFEC;
+	animation: glow 2s infinite ease;
+  border-radius: 50px;
+}
+
+.glow:before,
+.glow:after {
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+.glow:before {
+	background: rgba(255,255,255,0.25);
+	border: 2px solid rgba(255,255,255,0.5);
+	box-shadow: 0 0 2px 3px #B3F6D9;
+	box-shadow: 1px 1px 0 #A2E6C9, 0 0 20px 5px #C0FFE4, inset 2px 2px 0 #D3FFEC;
+}
+.glow:after {
+	background: #fff;
+	z-index: 5;
+	animation: sheen 5s infinite;
+}
+
+@keyframes glow {
+	0%,100% {
+		box-shadow: 1px 1px #1D8758, 0 0 20px 3px #8FFFCF, inset 2px 2px #D3FFEC;
+	}
+	50% {
+		box-shadow: 1px 1px #1D8758, 0 0 14px 10px #8FFFCF, inset 2px 2px #D3FFEC;
+	}
 }
 
 .link a {
-  color: whitesmoke;
+  color: violet;
   text-decoration: none;
   text-align: center;
   flex-grow: 1;
